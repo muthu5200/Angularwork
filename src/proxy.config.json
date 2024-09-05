@@ -1,0 +1,11 @@
+ {
+  "/api/users": {
+    "target": "http://localhost:6605",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api/users": "/api/v1/employees"
+    },
+    "logLevel": "debug"
+  }
+}
